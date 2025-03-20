@@ -1,0 +1,44 @@
+name: pokedex_app22
+description: "Una aplicación de Pokédex en Flutter con API y gestión de datos."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # Paquete para realizar solicitudes HTTP a la API de Pokémon
+  http: ^1.3.0  # Actualizado a la versión más compatible
+
+  # Paquete para manejar almacenamiento local de favoritos
+  shared_preferences: ^2.2.2  # Última versión estable compatible
+
+  # Paquete para notificaciones locales
+  flutter_local_notifications: ^19.0.0  # Última versión estable
+
+  # Íconos de Material Design
+  cupertino_icons: ^1.0.6  # Última versión estable
+
+  # Paquete para base de datos SQLite
+  sqflite: ^2.3.3+1  # Última versión estable compatible
+
+  # Paquete para obtener rutas de almacenamiento
+  path_provider: ^2.1.3  # Última versión compatible
+
+  # Paquete para manejar estado global
+  provider: ^6.1.2  # Última versión compatible
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0  # Última versión de reglas de lint
+
+flutter:
+  uses-material-design: true
